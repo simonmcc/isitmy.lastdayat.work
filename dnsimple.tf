@@ -1,4 +1,6 @@
 provider "dnsimple" {
-  # token loaded from DNSIMPLE_TOKEN environment variable
-  # email loaded from DNSIMPLE_EMAIL environment variable
+  version = "~> 0.1"
+
+  # token is loaded from DNSIMPLE_TOKEN environment variable
+  # account is loaded from DNSIMPLE_ACCOUNT environment variable
 }
