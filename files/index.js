@@ -44,6 +44,6 @@ function updateClock() {
 }
 
 window.onload = function () {
-  var deadline = "2016-12-02";
+  var deadline = "2018-04-26";
   initializeClock('clockdiv', deadline, 'bannerdiv', '<h1>YES</h1>');
 };
